@@ -12,11 +12,11 @@
 
 # Manage a namespace
 
-![Manage namespace](https://raw.githubusercontent.com/webcom-components/tutorials/master/ex0/intonamespace.png)
+![manage namespace](https://raw.githubusercontent.com/webcom-components/tutorials/master/ex0/intonamespace.png)
 
 # Add a collaborator
 
-![Add a collaborator](https://raw.githubusercontent.com/webcom-components/tutorials/master/ex0/collab.png)
+![add a collaborator](https://raw.githubusercontent.com/webcom-components/tutorials/master/ex0/collab.png)
 
 
 
