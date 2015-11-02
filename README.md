@@ -1,6 +1,7 @@
 # Tutorials
 Tutorials on Webcom
 
+- Exercise 0 : Create and manage your namespaces
 - Exercise 1 : Retrieve data
 - Exercise 2 : Write data
 - Exercise 3 : Add constraints to your data 
