@@ -6,7 +6,7 @@ User have to write its name, and when he writes a message and send it, we have t
 
 # Create a namespace
 
-Follow exercise 0 to create an account and a namespace
+Follow [exercise 0](https://github.com/webcom-components/tutorials/blob/master/ex0/README.md) to create an account and a namespace
 
 # Create a reference to your namespace
 
