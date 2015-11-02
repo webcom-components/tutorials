@@ -76,9 +76,13 @@ if (event.keyCode === 13) {
 
 # Show messages in dashboard
 
-Go to your dashboard and manage your namespace. On data tab, you can see a child node 'messages' at root level. 
+Enter a name and a message and press enter key.
 
-![Image of data tab in dashboard]
+![Image of chat](https://raw.githubusercontent.com/webcom-components/tutorials/master/ex2/chat.png)
+
+Next, go to your dashboard and manage your namespace. On data tab, you can see a child node 'messages' at root level. 
+
+![Image of data tab in dashboard](https://raw.githubusercontent.com/webcom-components/tutorials/master/ex2/dashboard.png)
 
 It works ! You pushed new messages in 'messages' child node.
 
