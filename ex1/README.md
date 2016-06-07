@@ -50,15 +50,15 @@ Create an account, it's more convenient. Otherwise, it will reloads the editor e
 
 For this exercise, We will focus only on Javascript.
 
-First, you need to [create a reference](https://webcom.orange.com/doc/Webcom.html) to the namespace :
+First, you need to [create a reference](https://datasync.orange.com/doc/Webcom.html) to the namespace :
 
 ```javascript
-var ref = new Webcom('https://webcom.orange.com/base/opendata-velib');
+var ref = new Webcom('https://datasync.orange.com/base/opendata-velib');
 ```
 
 # Read the data
 
-To read the data, we will use the [once('value', callback)](https://webcom.orange.com/doc/Webcom.html#on) method.
+To read the data, we will use the [once('value', callback)](https://datasync.orange.com/doc/Webcom.html#on) method.
 
 ```javascript
 ref.once('value', function(snap){
@@ -71,7 +71,7 @@ This will display the whole database, which is not very optimal.
 
 # Data navigation &amp; URIs
 
-The amount of data can be limited by focusing on a specific part of the JSONTree. For this purpose, you can use the navigation methods like [child](https://webcom.orange.com/doc/Webcom.html#child) and [parent](https://webcom.orange.com/doc/Webcom.html#parent) or create a new reference directly.
+The amount of data can be limited by focusing on a specific part of the JSONTree. For this purpose, you can use the navigation methods like [child](https://datasync.orange.com/doc/Webcom.html#child) and [parent](https://datasync.orange.com/doc/Webcom.html#parent) or create a new reference directly.
 
 Let's try to display the informations of Station "5" of the "Toulouse" contract.
 
@@ -83,7 +83,7 @@ ref.child('Toulouse').child('stations').child('5').once('value', function(snap){
 });
 
 // Using URIs
-var stationRef = new Webcom('https://webcom.orange.com/base/opendata-velib/Toulouse/stations/5');
+var stationRef = new Webcom('https://datasync.orange.com/base/opendata-velib/Toulouse/stations/5');
 stationRef.once('value', function(snap){
     // Display the station's properties
     console.info(snap.val());
@@ -94,7 +94,7 @@ stationRef.once('value', function(snap){
 
 Since this data sets is synchronized in real time. We can try to watch the stations data update.
 
-Listen to the values changes on different parts of the tree and find the most efficient way to watch the number of available bikes for one station and for all stations of a contract using the [on('child_changed', callback)](https://webcom.orange.com/doc/Webcom.html#on) method.
+Listen to the values changes on different parts of the tree and find the most efficient way to watch the number of available bikes for one station and for all stations of a contract using the [on('child_changed', callback)](https://datasync.orange.com/doc/Webcom.html#on) method.
 
 ```javascript
 // For a station
