@@ -104,6 +104,6 @@ stationRef.once('child_changed', function(snap){
 });
 ```
 
-Check this [JSBin](https://jsbin.com/qebuqe/edit?js,console) for the solution.
+Check this [JSBin](https://jsbin.com/tozofak/edit?js,console) for the solution.
 
 
