@@ -21,7 +21,7 @@ For this exercise, We will focus only on Javascript.
 First, you need to [create a reference](https://datasync.orange.com/doc/Webcom.html) to your freshly created namespace :
 
 ```javascript
-var ref = new Webcom('https://datasync.orange.com/base/<YOUR NAMESPACE>');
+var ref = new Webcom('https://io.datasync.orange.com/base/<YOUR NAMESPACE>');
 ```
 
 Replace `<YOUR NAMESPACE>` by your namespace.
@@ -147,7 +147,7 @@ Check final result [here](https://jsbin.com/tevovo/edit?js,output)
 To enable chat, uncomment the first line 
 
 ```javascript
-// var ref = new Webcom('https://datasync.orange.com/base/<YOUR NAMESPACE>');
+// var ref = new Webcom('https://io.datasync.orange.com/base/<YOUR NAMESPACE>');
 ```
 
 And replace token `<YOUR NAMESPACE>` by your namespace

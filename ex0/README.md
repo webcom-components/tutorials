@@ -1,6 +1,6 @@
 # Create an account
 
-Go to [Webcom forge](https://datasync.orange.com/forge). Click on "Create your free account".
+Go to [forge](https://io.datasync.orange.com/). Click on "Create your free account".
 
 ![home](https://raw.githubusercontent.com/webcom-components/tutorials/master/ex0/home.png)
 

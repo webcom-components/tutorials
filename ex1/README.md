@@ -53,12 +53,12 @@ For this exercise, We will focus only on Javascript.
 First, you need to [create a reference](https://datasync.orange.com/doc/Webcom.html) to the namespace :
 
 ```javascript
-var ref = new Webcom('https://datasync.orange.com/base/opendata-velib');
+var ref = new Webcom('https://io.datasync.orange.com/base/opendata-velib');
 ```
 
 # Read the data
 
-To read the data, we will use the [once('value', callback)](https://datasync.orange.com/doc/Webcom.html#on) method.
+To read the data, we will use the [once('value', callback)](https://io.datasync.orange.com/doc/Webcom.html#on) method.
 
 ```javascript
 ref.once('value', function(snap){
@@ -83,7 +83,7 @@ ref.child('Toulouse').child('stations').child('5').once('value', function(snap){
 });
 
 // Using URIs
-var stationRef = new Webcom('https://datasync.orange.com/base/opendata-velib/Toulouse/stations/5');
+var stationRef = new Webcom('https://io.datasync.orange.com/base/opendata-velib/Toulouse/stations/5');
 stationRef.once('value', function(snap){
     // Display the station's properties
     console.info(snap.val());

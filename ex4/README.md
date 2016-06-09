@@ -16,7 +16,7 @@ Let's start from exercise 3 [code base](https://jsbin.com/qusibi/edit?js,output)
 To enable chat, uncomment the first line 
 
 ```javascript
-// var ref = new Webcom('https://datasync.orange.com/base/<YOUR NAMESPACE>');
+// var ref = new Webcom('https://io.datasync.orange.com/base/<YOUR NAMESPACE>');
 ```
 
 And replace token `<YOUR NAMESPACE>` by your namespace
@@ -122,7 +122,7 @@ Check final result [here](https://jsbin.com/wurizo/edit?js,console,output)
 To enable chat, uncomment the first line 
 
 ```javascript
-// var ref = new Webcom('https://datasync.orange.com/base/<YOUR NAMESPACE>');
+// var ref = new Webcom('https://io.datasync.orange.com/base/<YOUR NAMESPACE>');
 ```
 
 And replace token `<YOUR NAMESPACE>` by your namespace
